@@ -6,6 +6,7 @@ __Things I'm currently learning:__
 - C++ Basics
 - Git Terminal Commands
 - Ubuntu 20.04 Bash Commands
+- How to Exit Vim *(very important programmer life skill)*
 
-__In This Repository__
-- Random experiments with Markdown and different programming languages
+__IN THIS REPOSITORY__
+- RANDOM EXPERIMENTS WITH MARKDOWN AND DIFFERENT PROGRAMMING LANGUAGES
