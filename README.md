@@ -9,4 +9,4 @@ __Things I'm currently learning:__
 - How to Exit Vim *(very important programmer life skill)*
 
 __IN THIS REPOSITORY__
-- RANDOM EXPERIMENTS WITH MARKDOWN AND DIFFERENT PROGRAMMING LANGUAGES
+- Random Experiments with Markdown and different programming languages
