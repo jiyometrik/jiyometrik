@@ -10,6 +10,3 @@ __Things I'm currently learning:__
 
 __IN THIS REPOSITORY__
 - Random Experiments with Markdown and different programming languages
-
-__THIS IS JUST A TEST__
-ASDJDFPAJDFOPAJDOPFJAOPFJ
