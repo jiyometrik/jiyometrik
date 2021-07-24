@@ -5,3 +5,7 @@ __Things I'm currently learning:__
 - 🌐 Web Development (HTML5, CSS3, JS)
 - 💻 Intermediate C++ For Competitive Programming
 - ❌ ~~How to Exit Vim *(very important programmer life skill)*~~ _mom i'm a big boy and i know that it's `:q`_
+
+__Also interested in:__
+- 🧮 Mathematics (I especially like Algebra)
+- 🎹 Piano
