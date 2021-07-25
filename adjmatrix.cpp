@@ -1,3 +1,11 @@
+/*
+<--- adjmatrix.cpp --->
+A program to output the adjacency matrix of a graph with bidirectional edges.
+-- Input --
+(1) The number of nodes (n) and the number of edges (e).
+(2) e pairs of nodes, representing each vertex.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()
