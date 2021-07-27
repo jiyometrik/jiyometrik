@@ -14,3 +14,6 @@ __Stuff I did:__
 - A [random website](https://github.com/g-e-o-m-e-t-r-i-c/final-web-project) for school
 - A Python `arcade` [Shooter Game](https://github.com/g-e-o-m-e-t-r-i-c/shooter-game)
 - A collection of [ciphers](https://github.com/g-e-o-m-e-t-r-i-c/ciphers), with some friends
+
+__Stuff I helped with:_
+- [My friend's website](https://github.com/felixaniverseesaw/fass)
