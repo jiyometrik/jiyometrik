@@ -4,7 +4,7 @@ Hi, I'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-
 __Things I'm currently learning:__
 - 🌐 Web Development (HTML5, CSS3, JS)
 - 💻 Intermediate C++ For Competitive Programming
-- ❌ ~~How to Exit Vim *(very important programmer life skill)*~~ _mom i'm a big boy and i know that it's `:q`_
+- ❌ ~~How to Exit Vim *(very important programmer life skill)*~~ _mom i'm a big boy and i know that it's_ `:q`
 
 __Also interested in:__
 - 🧮 Mathematics (I especially like Algebra)
@@ -15,5 +15,5 @@ __Stuff I did:__
 - A Python `arcade` [Shooter Game](https://github.com/g-e-o-m-e-t-r-i-c/shooter-game)
 - A collection of [ciphers](https://github.com/g-e-o-m-e-t-r-i-c/ciphers), with some friends
 
-__Stuff I helped with:_
+__Stuff I helped with:__
 - [My friend's website](https://github.com/felixaniverseesaw/fass)
