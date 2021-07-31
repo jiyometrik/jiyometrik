@@ -13,7 +13,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'arcticicestudio/nord-vim'  " Nord Theme
 Plug 'preservim/nerdtree'  " File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
-Plug 'airblade/vim-gitgutter'  " Git Integration
+Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
+Plug 'airblade/vim-gitgutter'  " Git Integration for Diffs
 Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
 call plug#end()
