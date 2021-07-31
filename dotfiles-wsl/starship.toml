@@ -1,3 +1,6 @@
+# A small config file for the Starship terminal prompt @ starship.rs.
+# Feel free to git clone and add more of your preferences!
+
 # display the count for git
 [git_status]
 	conflicted = "=${count}"
