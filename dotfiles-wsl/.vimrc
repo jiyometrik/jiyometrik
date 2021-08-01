@@ -46,6 +46,7 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 let g:airline_powerline_fonts = 1  " allow powerline fonts for status bar
+let g:gitgutter_async = 0  " let gitgutter run snynchronously
 
 " Fast Escape for Status Bar
 if ! has('gui_running')
