@@ -5,16 +5,15 @@ set number  " line numbers for my sanity
 
 filetype indent on  " file-specific indentation
 
-set lazyredraw  " stop unnecessary redrawing
 set showmatch  " show matching brackets
 
 " PLUGINS - VimPlug
 call plug#begin('~/.vim/plugged')
 Plug 'arcticicestudio/nord-vim'  " Nord Theme
+Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
+Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
 Plug 'preservim/nerdtree'  " File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
-Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
-Plug 'airblade/vim-gitgutter'  " Git Integration for Diffs
 Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
 call plug#end()
@@ -38,6 +37,10 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 
 " Start NERDTree and put the cursor back in the other window.
 autocmd VimEnter * NERDTree | wincmd p
+
+" If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.
+autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
+	\ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif

@@ -1,7 +1,9 @@
-# A small config file for the Starship terminal prompt @ starship.rs.
-# Feel free to git clone and add more of your preferences!
+[git_commit]
+	commit_hash_length = 5
 
-# display the count for git
+[git_metrics]
+	disabled = false
+
 [git_status]
 	conflicted = "=${count}"
 	ahead = "⇡${count}"
@@ -14,11 +16,3 @@
 	renamed = "»${count}"
 	deleted = "✘${count}"
 	style = "bold blue"
-
-[git_metrics]
-	disabled = false
-
-[git_commit]
-	# commit length is short to minimise typing
-	commit_hash_length = 5
-
