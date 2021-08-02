@@ -2,6 +2,7 @@ set tabstop=4  " use tabs, not spaces
 set shiftwidth=4
 set autoindent  " autoindent, duh
 set number  " line numbers for my sanity
+syntax enable  " enable syntax highlighting
 
 filetype indent on  " file-specific indentation
 
@@ -62,4 +63,4 @@ let g:nord_bold_vertical_split_line = 1  " bold vertical-split line
 let g:nord_uniform_diff_background = 1  " uniform diff background
 let g:nord_italic = 1  " italics
 let g:nord_italic_comments = 1  " italic comments
-colorscheme nord  " set nord colorscheme
+colorscheme nord  " set nord colorscheme 
