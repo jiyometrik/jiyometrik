@@ -1,5 +1,4 @@
 set tabstop=4  " use tabs, not spaces
-set shiftwidth=4
 set autoindent  " autoindent, duh
 set number  " line numbers for my sanity
 syntax enable  " enable syntax highlighting
