@@ -2,7 +2,6 @@
 Hi, I'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-i-c)! I'm a member of my school's Infocomm Club.
 
 __Things I'm currently learning:__
-- ❌ ~~How to Exit Vim *(very important programmer life skill)* _mom i'm a big boy and i know that it's_ `:q`~~ **IT'S `:q`**
 - Ubuntu 20.04 Bash Commands
 - Git Branches
 
