@@ -1,5 +1,5 @@
 set tabstop=4  " use tabs, not spaces
-set autoindent  " autoindent, duh
+set shiftwidth=4
 set number  " line numbers for my sanity
 syntax enable  " enable syntax highlighting
 
@@ -16,6 +16,7 @@ Plug 'preservim/nerdtree'  " File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
+Plug 'ryanoasis/vim-devicons'  " icons
 call plug#end()
 
 " use true colours
@@ -57,6 +58,7 @@ if ! has('gui_running')
 	augroup END
 endif
 
+" Nord Theme
 let g:nord_bold_vertical_split_line = 1  " bold vertical-split line
 let g:nord_uniform_diff_background = 1  " uniform diff background
 let g:nord_italic = 1  " italics
