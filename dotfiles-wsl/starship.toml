@@ -1,6 +1,3 @@
-[git_branch]
-	symbol = " "
-
 [git_commit]
 	commit_hash_length = 5
 
@@ -21,71 +18,74 @@
 	style = "bold blue"
 
 [aws]
-	symbol = "  "
+symbol = "  "
 
 [conda]
-	symbol = " "
+symbol = " "
 
 [dart]
-	symbol = " "
+symbol = " "
 
 [directory]
-	read_only = " "
+read_only = " "
 
 [docker_context]
-	symbol = " "
+symbol = " "
 
 [elixir]
-	symbol = " "
+symbol = " "
 
 [elm]
-	symbol = " "
+symbol = " "
+
+[git_branch]
+symbol = " "
 
 [golang]
-	symbol = " "
+symbol = " "
 
 [hg_branch]
-	symbol = " "
+symbol = " "
 
 [java]
-	symbol = " "
+symbol = " "
+style = "red"
 
 [julia]
-	symbol = " "
+symbol = " "
 
 [memory_usage]
-	symbol = " "
+symbol = " "
 
 [nim]
-	symbol = " "
+symbol = " "
 
 [nix_shell]
-	symbol = " "
+symbol = " "
 
 [package]
-	symbol = " "
-	disabled = false
+symbol = " "
 
 [perl]
-	symbol = " "
+symbol = " "
 
 [php]
-	symbol = " "
+symbol = " "
 
 [python]
-	symbol = " "
+symbol = " "
 
 [ruby]
-	symbol = " "
+symbol = " "
 
 [rust]
-	symbol = " "
+symbol = " "
 
 [scala]
-	symbol = " "
+symbol = " "
 
 [shlvl]
-	symbol = " "
+symbol = " "
 
 [swift]
-	symbol = "ﯣ "
+symbol = "ﯣ "
