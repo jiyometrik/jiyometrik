@@ -7,8 +7,6 @@ filetype indent on  " file-specific indentation
 
 set showmatch  " show matching brackets
 
-set rtp+=~/tabnine-vim  " I use TabNine, but since it's not compatible with VimPlug, I install it manually.
-
 " PLUGINS - VimPlug
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  " autocoplete code
