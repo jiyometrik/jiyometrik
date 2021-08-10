@@ -7,6 +7,8 @@ filetype indent on  " file-specific indentation
 
 set showmatch  " show matching brackets
 
+set rtp+=~/tabnine-vim  " I use TabNine, but since it's not compatible with VimPlug, I install it manually.
+
 " PLUGINS - VimPlug
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  " autocoplete code
@@ -26,9 +28,10 @@ call plug#end()
 
 " prettier formatting - configs are in .prettierrc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
-nnoremap <C-f> :Prettier<CR>
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
+
+nnoremap <C-f> :Prettier<CR>
 
 " use true colours
 if (has("nvim"))
