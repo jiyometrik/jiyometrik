@@ -11,7 +11,7 @@ set showmatch  " show matching brackets
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  " autocoplete code
 " This is a library of plugins
-" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-jedi (python), coc-emmet, coc-prettier
+" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-python, coc-emmet, coc-prettier
 
 Plug 'arcticicestudio/nord-vim'  " Nord Theme
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
