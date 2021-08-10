@@ -9,6 +9,10 @@ set showmatch  " show matching brackets
 
 " PLUGINS - VimPlug
 call plug#begin('~/.vim/plugged')
+Plug 'neoclide/coc.nvim', {'branch': 'release'}  " autocoplete code
+" This is a library of plugins
+" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-jedi (python), coc-emmet, coc-prettier
+
 Plug 'arcticicestudio/nord-vim'  " Nord Theme
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
@@ -18,6 +22,10 @@ Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
 Plug 'ryanoasis/vim-devicons'  " icons
 call plug#end()
+
+" prettier formatting - configs are in .prettierrc
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+nnoremap <C-f> :Prettier<CR>
 
 " use true colours
 if (has("nvim"))
@@ -46,7 +54,7 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
-let g:airline_powerline_fonts = 1  " allow powerline fonts for status bar
+" let g:airline_powerline_fonts = 1  " allow powerline fonts for status bar
 
 " Fast Escape for Status Bar
 if ! has('gui_running')
