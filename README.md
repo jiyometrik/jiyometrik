@@ -17,3 +17,11 @@ Hi, I'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-
 -   🌐 A [random website](https://github.com/g-e-o-m-e-t-r-i-c/final-web-project) for school
 -   🐍 A Python `arcade` [Shooter Game](https://github.com/g-e-o-m-e-t-r-i-c/shooter-game)
 -   👩‍💻 A collection of [ciphers](https://github.com/g-e-o-m-e-t-r-i-c/ciphers), with some friends
+
+**In this repository:**
+Files in the `dotfiles-wsl` directory are indeed, my dotfiles for WSL Ubuntu-20.04.
+They include:
+-   My `~/.vimrc` (see image below)
+-   My `starship.toml`: Config file for my [Starship Prompt](https://starship.rs/).
+-   My `~/.prettierrc`: Config file for Vim's Prettier formatter.
+-   My `coc-settings.json`: Config file for [`coc.nvim`](https://github.com/neoclide/coc.nvim/).
