@@ -25,3 +25,5 @@ They include:
 -   My `starship.toml`: Config file for my [Starship Prompt](https://starship.rs/).
 -   My `~/.prettierrc`: Config file for Vim's Prettier formatter.
 -   My `coc-settings.json`: Config file for [`coc.nvim`](https://github.com/neoclide/coc.nvim/).
+
+![image](https://user-images.githubusercontent.com/79387351/128859269-645ff7cd-4d91-46a1-bb35-8d464396bbfc.png)
