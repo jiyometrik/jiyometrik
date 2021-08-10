@@ -4,15 +4,19 @@ set number  " line numbers for my sanity
 syntax enable  " enable syntax highlighting
 
 filetype indent on  " file-specific indentation
+filetype plugin on
 
 set showmatch  " show matching brackets
 
+" C-x C-o to toggle
+set omnifunc=syntaxcomplete#Complete " vim autocomplete
+
 " PLUGINS - VimPlug
 call plug#begin('~/.vim/plugged')
-Plug 'neoclide/coc.nvim', {'branch': 'release'}  " autocoplete code
-" This is a library of plugins
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-python, coc-emmet, coc-prettier
-" also check coc-settings.json
+" Check coc-settings.json
+" Yet to Complete: configure clang formatting
 
 Plug 'arcticicestudio/nord-vim'  " Nord Theme
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
@@ -28,7 +32,6 @@ call plug#end()
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
-
 nnoremap <C-f> :Prettier<CR>
 
 " use true colours
@@ -57,8 +60,6 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
-
-" let g:airline_powerline_fonts = 1  " allow powerline fonts for status bar
 
 " Fast Escape for Status Bar
 if ! has('gui_running')
