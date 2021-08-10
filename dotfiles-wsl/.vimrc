@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}  " autocoplete code
 " This is a library of plugins
 " Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-python, coc-emmet, coc-prettier
+" also check coc-settings.json
 
 Plug 'arcticicestudio/nord-vim'  " Nord Theme
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
@@ -26,6 +27,8 @@ call plug#end()
 " prettier formatting - configs are in .prettierrc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 nnoremap <C-f> :Prettier<CR>
+xmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
 
 " use true colours
 if (has("nvim"))
