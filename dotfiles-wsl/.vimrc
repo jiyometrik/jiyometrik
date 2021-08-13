@@ -14,7 +14,7 @@ set omnifunc=syntaxcomplete#Complete " vim autocomplete
 " PLUGINS - VimPlug
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-python, coc-emmet, coc-prettier
+" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-python, coc-emmet, coc-prettier, coc-tsserver
 " Check coc-settings.json
 " Yet to Complete: configure clang formatting
 
@@ -74,6 +74,6 @@ endif
 " Nord Theme
 let g:nord_bold_vertical_split_line = 1  " bold vertical-split line
 let g:nord_uniform_diff_background = 1  " uniform diff background
-let g:nord_italic = 1  " italics
-let g:nord_italic_comments = 1  " italic comments
+" let g:nord_italic = 1  " italics
+" let g:nord_italic_comments = 1  " italic comments
 colorscheme nord  " set nord colorscheme
