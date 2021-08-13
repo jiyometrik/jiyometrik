@@ -28,4 +28,4 @@ They include:
 -   My `~/.prettierrc`: Config file for Vim's Prettier formatter.
 -   My `coc-settings.json`: Config file for [`coc.nvim`](https://github.com/neoclide/coc.nvim/).
 
-![image](https://user-images.githubusercontent.com/79387351/128859269-645ff7cd-4d91-46a1-bb35-8d464396bbfc.png)
+![image](https://user-images.githubusercontent.com/79387351/129309771-2c7dfdc6-6d0e-453e-b12f-25c42b24be79.png)
