@@ -19,7 +19,7 @@ Hi, I'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-
 -   👩‍💻 A collection of [ciphers](https://github.com/g-e-o-m-e-t-r-i-c/ciphers), with some friends
 
 **In this repository:**
-Files in the `dotfiles-wsl` directory are indeed, my dotfiles for WSL Ubuntu-20.04.
+Files in the `dotfiles-wsl` directory are (duh) my dotfiles for WSL Ubuntu-20.04.
 
 They include:
 
