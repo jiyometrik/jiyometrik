@@ -21,11 +21,8 @@ Hi, I'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-
 **In this repository:**
 Files in the `dotfiles-wsl` directory are (duh) my dotfiles for WSL Ubuntu-20.04.
 
-They include:
-
 -   My `~/.vimrc` (Vim) and `init.vim` (Neovim)
 	- **Update**: Migration to **Neovim**, `~/.vimrc` will _still_ be maintained. See `~/.config/init.vim`.
 -   My `starship.toml`: Config file for my [Starship Prompt](https://starship.rs/).
 -   My `~/.prettierrc`: Config file for Vim's Prettier formatter.
 -   My `coc-settings.json`: Config file for [`coc.nvim`](https://github.com/neoclide/coc.nvim/).
-
