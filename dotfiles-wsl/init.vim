@@ -19,11 +19,7 @@ call plug#end()
 set tabstop=4  " use tabs, not spaces
 set shiftwidth=4
 set number  " line numbers for my sanity
-set bg=dark
 syntax enable  " enable syntax highlighting
-
-filetype indent on  " file-specific indentation
-filetype plugin on
 
 set showmatch  " show matching brackets
 
