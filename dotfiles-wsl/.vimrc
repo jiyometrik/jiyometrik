@@ -12,7 +12,8 @@ filetype plugin on
 
 set showmatch  " show matching brackets
 
-set noerrorbells visualbell t_vb=  " disable bells
+set noeb
+set novb
 
 " C-x C-o to toggle
 set omnifunc=syntaxcomplete#Complete " vim autocomplete
