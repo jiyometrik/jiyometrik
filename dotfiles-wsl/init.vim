@@ -1,5 +1,5 @@
-" Config file for vim.
-" Add this file to your ~ (home) directory.
+" Config file for NeoVim.
+" This file should be in your ~/.config/nvim/ directory.
 
 set tabstop=4  " use tabs, not spaces
 set shiftwidth=4
