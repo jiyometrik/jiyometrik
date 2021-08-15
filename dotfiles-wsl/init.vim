@@ -18,6 +18,8 @@ call plug#end()
 
 set tabstop=4  " use tabs, not spaces
 set shiftwidth=4
+set autoindent
+set smartindent
 set number  " line numbers for my sanity
 syntax enable  " enable syntax highlighting
 
@@ -25,6 +27,9 @@ set showmatch  " show matching brackets
 
 " C-x C-o to toggle
 set omnifunc=syntaxcomplete#Complete " vim autocomplete
+
+set updatetime=500
+set timeoutlen=500
 
 " prettier formatting - configs are in .prettierrc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
