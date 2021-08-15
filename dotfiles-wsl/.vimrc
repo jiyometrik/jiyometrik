@@ -1,5 +1,5 @@
-" Config file for vim.
-" Add this file to your ~ (home) directory.
+" Config files for vim.
+" This file should be in the ~ (home) directory.
 
 set tabstop=4  " use tabs, not spaces
 set shiftwidth=4
@@ -11,6 +11,8 @@ filetype indent on  " file-specific indentation
 filetype plugin on
 
 set showmatch  " show matching brackets
+
+set noerrorbells visualbell t_vb=  " disable bells
 
 " C-x C-o to toggle
 set omnifunc=syntaxcomplete#Complete " vim autocomplete
