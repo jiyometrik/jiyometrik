@@ -1,22 +1,5 @@
-" Config file for NeoVim.
-" This file should be in your ~/.config/nvim/ directory.
-
-set tabstop=4  " use tabs, not spaces
-set shiftwidth=4
-set number  " line numbers for my sanity
-set bg=dark
-syntax enable  " enable syntax highlighting
-
-filetype indent on  " file-specific indentation
-filetype plugin on
-
-set showmatch  " show matching brackets
-
-" C-x C-o to toggle
-set omnifunc=syntaxcomplete#Complete " vim autocomplete
-
 " PLUGINS - VimPlug
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-python, coc-emmet, coc-prettier, coc-tsserver
 " Check coc-settings.json
@@ -32,6 +15,20 @@ Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
 Plug 'ryanoasis/vim-devicons'  " icons
 call plug#end()
+
+set tabstop=4  " use tabs, not spaces
+set shiftwidth=4
+set number  " line numbers for my sanity
+set bg=dark
+syntax enable  " enable syntax highlighting
+
+filetype indent on  " file-specific indentation
+filetype plugin on
+
+set showmatch  " show matching brackets
+
+" C-x C-o to toggle
+set omnifunc=syntaxcomplete#Complete " vim autocomplete
 
 " prettier formatting - configs are in .prettierrc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
