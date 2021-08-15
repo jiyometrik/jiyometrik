@@ -1,6 +1,7 @@
 set tabstop=4  " use tabs, not spaces
 set shiftwidth=4
 set number  " line numbers for my sanity
+set bg=dark
 syntax enable  " enable syntax highlighting
 
 filetype indent on  " file-specific indentation
@@ -19,6 +20,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Yet to Complete: configure clang formatting
 
 Plug 'arcticicestudio/nord-vim'  " Nord Theme
+" Plug 'morhetz/gruvbox'  " Gruvbox Theme - Another Good Theme
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
 Plug 'preservim/nerdtree'  " File Tree
@@ -77,3 +79,7 @@ let g:nord_uniform_diff_background = 1  " uniform diff background
 " let g:nord_italic = 1  " italics
 " let g:nord_italic_comments = 1  " italic comments
 colorscheme nord  " set nord colorscheme
+
+" Gruvbox Theme - not my main one, but if you're into it, try it!
+" let g:gruvbox_italic = 0  " disable italics
+" colorscheme gruvbox
