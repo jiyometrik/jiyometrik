@@ -1,12 +1,11 @@
 " PLUGINS - VimPlug
 call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-python, coc-emmet, coc-prettier, coc-tsserver
+" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright
 " Check coc-settings.json
 " Yet to Complete: configure clang formatting
 
 Plug 'arcticicestudio/nord-vim'  " Nord Theme
-" Plug 'morhetz/gruvbox'  " Gruvbox Theme - Another Good Theme
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
 Plug 'preservim/nerdtree'  " File Tree
@@ -27,9 +26,6 @@ set showmatch  " show matching brackets
 
 " C-x C-o to toggle
 set omnifunc=syntaxcomplete#Complete " vim autocomplete
-
-set updatetime=500
-set timeoutlen=500
 
 " prettier formatting - configs are in .prettierrc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
@@ -77,10 +73,4 @@ endif
 " Nord Theme
 let g:nord_bold_vertical_split_line = 1  " bold vertical-split line
 let g:nord_uniform_diff_background = 1  " uniform diff background
-" let g:nord_italic = 1  " italics
-" let g:nord_italic_comments = 1  " italic comments
 colorscheme nord  " set nord colorscheme
-
-" Gruvbox Theme - not my main one, but if you're into it, try it!
-" let g:gruvbox_italic = 0  " disable italics
-" colorscheme gruvbox
