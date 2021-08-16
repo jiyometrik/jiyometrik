@@ -1,3 +1,6 @@
 {
-	"python.formatting.provider": "autopep8"
+	"python.runLinting": true,
+	"python.sortImports": true,
+	"python.formatting.provider": "autopep8",
+	"eslint.format.enable": true
 }
