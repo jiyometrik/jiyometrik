@@ -23,10 +23,8 @@ syntax enable  " enable syntax highlighting
 
 set showmatch  " show matching brackets
 
-" C-x C-o to toggle
-set omnifunc=syntaxcomplete#Complete " vim autocomplete
-
-" prettier formatting - configs are in .prettierrc
+" prettier formatting configs are in ~/.prettierrc
+" as for the other languages, just use the language servers provided by coc.nvim
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
@@ -56,6 +54,8 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
 
 " Fast Escape for Status Bar
 if ! has('gui_running')
