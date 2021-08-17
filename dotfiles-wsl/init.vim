@@ -36,15 +36,15 @@ nmap <leader>f  <Plug>(coc-format-selected)
 nnoremap <C-f> :Prettier<CR>
 
 " use true colours
-if (has("nvim"))
-	" For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
-	let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-endif
+" if (has("nvim"))
+	" " For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
+	" let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+" endif
 
-" For Neovim > 0.1.5 and Vim > patch 7.4.1799 < https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162 >
-if (has("termguicolors"))
-	set termguicolors
-endif
+" " For Neovim > 0.1.5 and Vim > patch 7.4.1799 < https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162 >
+" if (has("termguicolors"))
+	" set termguicolors
+" endif
 
 " Remaps for File Tree
 nnoremap <C-n> :NERDTree<CR>
