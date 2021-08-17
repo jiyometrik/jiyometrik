@@ -3,25 +3,30 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright
 " Check coc-settings.json
-
-Plug 'arcticicestudio/nord-vim'  " Nord Theme
+Plug 'sbdchd/neoformat'
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
 Plug 'preservim/nerdtree'  " File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
-Plug 'ryanoasis/vim-devicons'  " icons
+Plug 'arcticicestudio/nord-vim'  " Nord Theme
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
+
+set number  " line numbers for my sanity
+syntax enable  " enable syntax highlighting
 
 set tabstop=4  " use tabs, not spaces
 set shiftwidth=4
 set autoindent
 set smartindent
-set number  " line numbers for my sanity
-syntax enable  " enable syntax highlighting
-
 set showmatch  " show matching brackets
+
+set nocompatible
+
+set path+=**
+set wildmenu  " file finder
 
 " prettier formatting configs are in ~/.prettierrc
 " as for the other languages, just use the language servers provided by coc.nvim
@@ -56,6 +61,7 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
+let g:airline_powerline_fonts = 1  " enable powerline fonts
 
 " Fast Escape for Status Bar
 if ! has('gui_running')
