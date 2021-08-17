@@ -3,7 +3,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright
 " Check coc-settings.json
-Plug 'sbdchd/neoformat'
+
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
 Plug 'preservim/nerdtree'  " File Tree
@@ -11,7 +11,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
 Plug 'arcticicestudio/nord-vim'  " Nord Theme
-Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons'  " Icons!
 call plug#end()
 
 set number  " line numbers for my sanity
