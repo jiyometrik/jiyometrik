@@ -1,9 +1,9 @@
 " PLUGINS - VimPlug
 call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright, coc-python (I keep both because both have lacking features which can be found in one another)
+" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright, coc-python, coc-eslint (I keep both because both have lacking features which can be found in one another)
 " Check coc-settings.json
-
+" Plug 'neoclide/coc-css'
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
 Plug 'preservim/nerdtree'  " File Tree
@@ -76,4 +76,6 @@ endif
 " Nord Theme
 let g:nord_bold_vertical_split_line = 1  " bold vertical-split line
 let g:nord_uniform_diff_background = 1  " uniform diff background
+let g:nord_cursor_line_number_background = 1  " easier to notice cursor
 colorscheme nord
+set nocompatible
