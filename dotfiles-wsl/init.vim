@@ -15,6 +15,7 @@ Plug 'ryanoasis/vim-devicons'  " Icons!
 call plug#end()
 
 set number  " line numbers for my sanity
+set relativenumber
 syntax enable  " enable syntax highlighting
 
 set tabstop=4  " use tabs, not spaces
@@ -75,4 +76,4 @@ endif
 " Nord Theme
 let g:nord_bold_vertical_split_line = 1  " bold vertical-split line
 let g:nord_uniform_diff_background = 1  " uniform diff background
-colorscheme nord  " set nord colorscheme
+colorscheme nord
