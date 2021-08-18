@@ -1,7 +1,7 @@
 " PLUGINS - VimPlug
 call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright
+" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright, coc-python (I keep both because both have lacking features which can be found in one another)
 " Check coc-settings.json
 
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
@@ -28,7 +28,7 @@ set nocompatible
 set path+=**
 set wildmenu  " file finder
 
-set noshowcmd noruler  " reduces lag
+set noruler noshowcmd " faster
 
 " prettier formatting configs are in ~/.prettierrc
 " as for the other languages, just use the language servers provided by coc.nvim
