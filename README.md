@@ -20,8 +20,7 @@ Hi, I'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-
 
 **In this repository:**
 
--   My ~~`~/.vimrc` (Vim)~~ and `init.vim` (Neovim)
-    -   **Update**: Migration to **Neovim**, `~/.vimrc` will _**NO LONGER**_ be maintained. See `init.vim`.
+-   My `init.vim` (Neovim, `~/.vimrc` removed)
 -   My `starship.toml`: Config file for my [Starship Prompt](https://starship.rs/).
 -   My `~/.prettierrc`: Config file for Vim's Prettier formatter.
 -   My `coc-settings.json`: Config file for [`coc.nvim`](https://github.com/neoclide/coc.nvim/).
