@@ -28,6 +28,8 @@ set nocompatible
 set path+=**
 set wildmenu  " file finder
 
+set noshowcmd noruler  " reduces lag
+
 " prettier formatting configs are in ~/.prettierrc
 " as for the other languages, just use the language servers provided by coc.nvim
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
