@@ -30,7 +30,11 @@ set wildmenu  " file finder
 
 set noruler noshowcmd " faster
 
+" set leader key to be more accessible
 let mapleader = ","
+
+" ctrl-a to select all
+nnoremap <C-a> <Esc>ggVG
 
 " prettier formatting configs are in ~/.prettierrc
 " as for the other languages, just use the language servers provided by coc.nvim
