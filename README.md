@@ -18,10 +18,10 @@ Hi, I'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-
 -   🐍 A Python `arcade` [Shooter Game](https://github.com/g-e-o-m-e-t-r-i-c/shooter-game)
 -   👩‍💻 A collection of [ciphers](https://github.com/g-e-o-m-e-t-r-i-c/ciphers), with some friends
 
-**In this repository:**
+**In [dotfiles-wsl](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-i-c/tree/master/dotfiles-wsl):**
 
--   My `init.vim` (Neovim, `~/.vimrc` removed)
-	- Note (for **Vim** users): You can copy `init.vim` into your `~/.vimrc`, and tweak some of the settings to fit Vim. 
+-   My `init.vim` (Neovim) and `.vimrc` (Vim).
+	- Since the plugins slightly differ from `init.vim` and `.vimrc`, both are added to the repository.
 -   My `starship.toml`: Config file for my [Starship Prompt](https://starship.rs/).
 -   My `~/.prettierrc`: Config file for Vim's Prettier formatter.
 -   My `coc-settings.json`: Config file for [`coc.nvim`](https://github.com/neoclide/coc.nvim/).
