@@ -1,4 +1,4 @@
-" " PLUGINS - VimPlug
+" PLUGINS - VimPlug
 call plug#begin('~/.config/nvim/plugged')
 
 " Language Servers
@@ -19,10 +19,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 
 " Status Line (vim-airline is quite slow for Neovim, so I'm using the faster alternative)
 " Plug 'vim-airline/vim-airline'  " Status Bar
-" Plug 'hoob3rt/lualine.nvim'  " tabline for nvim
-" Plug 'itchyny/lightline.vim'
-" Plug 'windwp/windline.nvim'
-Plug 'yaocccc/nvim-lines.lua'
+Plug 'hoob3rt/lualine.nvim'  " tabline for nvim
 
 " Misc.
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
@@ -38,27 +35,9 @@ call plug#end()
 " Lua Scripts (for Neovim extensions which require them)
 lua <<EOF
 -- configure theme for status line
--- require 'lualine'.setup {
-	-- options = {theme = 'nord'}
--- }
-vim.g.line_powerline_enable = 1
-vim.g.line_nerdfont_enable = 1
-vim.g.line_unnamed_filename='~'
-vim.g.line_statusline_getters = {'v:lua.GitInfo', 'v:lua.CocErrCount', 'v:lua.GetFt'}
-function GitInfo()
-    local branch = vim.g.coc_git_status or ''
-    local diff = vim.b.coc_git_status or ''
-    return (string.len(branch) > 0 and string.format(" %s ", branch) or " none ")
-        .. (string.len(diff) > 0 and string.format('%s ', vim.fn.trim(diff)) or '')
-end
-function CocErrCount()
-    local coc_diagnostic_info = vim.b.coc_diagnostic_info or { error = 0 }
-    return string.format(' E%d ', coc_diagnostic_info.error)
-end
-function GetFt()
-    local ft = vim.api.nvim_eval('&ft')
-    return string.format(' %s ', string.len(ft) > 0 and ft or '~')
-end
+require 'lualine'.setup {
+	options = {theme = 'nord'}
+}
 EOF
 
 set number  " line numbers for my sanity
@@ -116,10 +95,6 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 " Configs for vim-airline, if you choose to use it
 " let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
 " let g:airline_powerline_fonts = 1  " enable powerline fonts
-
-let g:lightline = {
-      \ 'colorscheme': 'nord',
-      \ }
 
 " Fast Escape for vim-airline
 " if ! has('gui_running')
