@@ -1,6 +1,7 @@
 " PLUGINS - VimPlug
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language servers and all that fun stuff
+" Note: If you're using coc-pyright (like me), be sure to run `sudo apt install python-is-python3`, so that formatting actually works.
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
 Plug 'preservim/nerdtree'  " File Tree

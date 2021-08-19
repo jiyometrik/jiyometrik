@@ -4,6 +4,8 @@ call plug#begin('~/.config/nvim/plugged')
 " Language Servers
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright, coc-python, coc-eslint (I keep both because both have lacking features which can be found in one another)
+" Make sure to run sudo apt install python-is-python3 when installing pyright,
+" so that formatting actually works.
 " Check coc-settings.json
 
 " Git Integration
@@ -34,7 +36,7 @@ call plug#end()
 lua <<EOF
 -- configure theme for status line
 require 'lualine'.setup {
-	options = {theme = 'auto'}
+	options = {theme = 'nord'}
 }
 EOF
 
@@ -71,7 +73,7 @@ nnoremap <C-f> :Prettier<CR>
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
+nnoremap <Space>f :NERDTreeFind<CR>
 
 " -- NvimTree Remaps --
 " nnoremap <C-n> :NvimTreeOpen<CR>
@@ -83,12 +85,12 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " Start NERDTree and put the cursor back in the other window.
 autocmd VimEnter * NERDTree | wincmd p
 
+" Close the tab if NERDTree is the only window remaining in it.
+autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
 " If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.
 autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
-	\ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
-
-" Exit Vim if NERDTree is the only window remaining in the only tab.
-autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+    \ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 
 " Configs for vim-airline, if you choose to use it
 " let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
