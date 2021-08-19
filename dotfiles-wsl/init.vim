@@ -14,7 +14,6 @@ Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
 
 " FileTree (+ git integration)
 Plug 'preservim/nerdtree' " file tree
-" Plug 'kyazdani42/nvim-tree.lua'  " a faster version for nvim, but I prefer the original
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 
 " Status Line (vim-airline is quite slow for Neovim, so I'm using the faster alternative)
@@ -34,10 +33,6 @@ call plug#end()
 
 " Lua Scripts (for Neovim extensions which require them)
 lua <<EOF
--- configure theme for status line
--- require 'lualine'.setup {
-	-- options = {theme = 'nord'}
--- }
 vim.g.line_powerline_enable = 1
 vim.g.line_nerdfont_enable = 1
 vim.g.line_unnamed_filename='~'
@@ -93,12 +88,6 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <Space>f :NERDTreeFind<CR>
 
-" -- NvimTree Remaps --
-" nnoremap <C-n> :NvimTreeOpen<CR>
-" nnoremap <C-t> :NvimTreeToggle<CR>
-" nnoremap <leader>n :NvimTreeFocus<CR>
-" nnoremap <Space>f :NvimTreeFind<CR>
-
 " Other Configs for NERDTree's behaviour.
 " Start NERDTree and put the cursor back in the other window.
 autocmd VimEnter * NERDTree | wincmd p
@@ -114,11 +103,7 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 " let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
 " let g:airline_powerline_fonts = 1  " enable powerline fonts
 
-let g:lightline = {
-      \ 'colorscheme': 'nord',
-      \ }
-
-" Fast Escape for vim-airline
+" Fast Escape for vim-airline, again, if you choose to use it
 " if ! has('gui_running')
 	" set ttimeoutlen=10
 	" augroup FastEscape
