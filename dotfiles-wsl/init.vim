@@ -19,9 +19,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 
 " Status Line (vim-airline is quite slow for Neovim, so I'm using the faster alternative)
 " Plug 'vim-airline/vim-airline'  " Status Bar
-" Plug 'hoob3rt/lualine.nvim'  " tabline for nvim
-" Plug 'itchyny/lightline.vim'
-" Plug 'windwp/windline.nvim'
 Plug 'yaocccc/nvim-lines.lua'
 
 " Misc.
