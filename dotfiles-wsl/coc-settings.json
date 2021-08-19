@@ -1,6 +1,19 @@
 {
+	"coc.preferences.colorSupport": true,
+
 	"python.runLinting": true,
 	"python.sortImports": true,
 	"python.formatting.provider": "autopep8",
-	"eslint.format.enable": true
+	"python.formatting.autopep8Path": "~/.local/bin/autopep8",
+	"python.autoComplete.addBrackets": true,
+	"languageserver": {
+		"python": {
+			"formatting": {
+				"provider": "autopep8"
+			},
+			"autopep8": {
+				"enabled": true
+			}
+		}
+	}
 }
