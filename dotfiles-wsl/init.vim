@@ -99,7 +99,7 @@ autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTa
 
 " If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.
 autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
-			\ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
+		\ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 
 " Configs for vim-airline, if you choose to use it
 let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
@@ -117,6 +117,5 @@ endif
 
 " Nord Theme
 let g:nord_bold_vertical_split_line = 1  " bold vertical-split line
-let g:nord_cursor_line_number_background = 1  " easier to notice cursor
 let g:nord_uniform_diff_background = 1  " uniform diff background
 colorscheme nord
