@@ -3,7 +3,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 " Language Servers
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright, coc-python, coc-eslint (I keep both because both have lacking features which can be found in one another)
+" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright, coc-eslint
 " Make sure to run sudo apt install python-is-python3 when installing pyright,
 " so that formatting actually works.
 " Check coc-settings.json
