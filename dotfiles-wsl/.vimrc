@@ -1,14 +1,13 @@
 " PLUGINS - VimPlug
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language servers and all that fun stuff
-" Note: If you're using coc-pyright (like me), be sure to run `sudo apt install python-is-python3`, so that formatting actually works.
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
 Plug 'preservim/nerdtree'  " File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
-Plug 'arcticicestudio/nord-vim'  " Nord Theme
+Plug 'morhetz/gruvbox'  " gruvbox
 Plug 'ryanoasis/vim-devicons'  " Icons!
 call plug#end()
 
@@ -34,8 +33,7 @@ let mapleader = ","
 " ctrl-a to select all
 nnoremap <C-a> <Esc>ggVG
 
-" prettier formatting configs are in ~/.prettierrc
-" as for the other languages, just use the language servers provided by coc.nvim
+" formatting configs, either prettier/language server
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
@@ -58,7 +56,6 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
-" let g:airline_powerline_fonts = 1  " enable powerline fonts
 
 " Fast Escape for Status Bar
 if ! has('gui_running')
@@ -70,9 +67,12 @@ if ! has('gui_running')
 	augroup END
 endif
 
-" Nord Theme
-let g:nord_bold_vertical_split_line = 1  " bold vertical-split line
-let g:nord_uniform_diff_background = 1  " uniform diff background
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
-colorscheme nord
+if (has("nvim"))
+	let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+endif
+if (has("termguicolors"))
+	set termguicolors
+endif
+
+let g:gruvbox_italic = 1
+colorscheme gruvbox
