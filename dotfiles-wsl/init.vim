@@ -1,30 +1,14 @@
 " PLUGINS - VimPlug
 call plug#begin('~/.config/nvim/plugged')
-
-" Language Servers
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Check coc-settings.json
-
-" Git Integration
-Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
-Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
-
-" FileTree (+ git integration)
-Plug 'preservim/nerdtree' " file tree
-Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
-
-" Status Bar
-Plug 'vim-airline/vim-airline'
-
-" Misc.
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }  " autocomplete and all that fun stuff
+Plug 'tpope/vim-fugitive'  " git from vim
+Plug 'airblade/vim-gitgutter'  " git status while editing
+Plug 'preservim/nerdtree'  " file tree
+Plug 'Xuyuanp/nerdtree-git-plugin'  " git status for file tree
+Plug 'vim-airline/vim-airline'  " status bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
-
-" Themes
-Plug 'arcticicestudio/nord-vim'  " Nord Theme
-
-" Icons for Everything
-Plug 'ryanoasis/vim-devicons'  " Icons!
-
+Plug 'morhetz/gruvbox'  " gruvbox theme
+Plug 'ryanoasis/vim-devicons'  " Icons for Everything
 call plug#end()
 
 set number  " line numbers for my sanity
@@ -42,14 +26,12 @@ set nocompatible
 set path+=**
 set wildmenu  " builtin file finder
 
-" set leader key to be more accessible
-let mapleader = ","
+let mapleader = ","  " set leader key to be more accessible
 
 " ctrl-a to select all
 nnoremap <C-a> <Esc>ggVG
 
-" prettier formatting configs are in ~/.prettierrc
-" as for the other languages, just use the language servers provided by coc.nvim
+" formatting configs - either in ~/.prettierrc or respective language servers
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
@@ -72,7 +54,6 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 		\ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 
 let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
-" let g:airline_powerline_fonts = 1  " enable powerline fonts
 
 " Fast Escape for vim-airline
 if ! has('gui_running')
@@ -84,9 +65,11 @@ if ! has('gui_running')
 	augroup END
 endif
 
-" Nord Theme
-let g:nord_bold_vertical_split_line = 1  " bold vertical-split line
-let g:nord_uniform_diff_background = 1  " uniform diff background
-let g:nord_italic = 1  " use italics - only use this if your font supports italics
-let g:nord_italic_comments = 1
-colorscheme nord
+if (has("nvim"))
+	let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+endif
+if (has("termguicolors"))
+	set termguicolors
+endif
+let g:gruvbox_italic = 1
+colorscheme gruvbox
