@@ -1,6 +1,6 @@
 # g-e-o-m-e-t-r-i-c-/dotfiles-wsl
 
-A place for me to dump my dotfiles for easier access.
+A place for me to dump my WSL dotfiles for easier access.
 
 -   My `init.vim` (Neovim) and `.vimrc` (Vim).
 -   **Plugins**
