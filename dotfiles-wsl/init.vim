@@ -3,9 +3,6 @@ call plug#begin('~/.config/nvim/plugged')
 
 " Language Servers
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Installed | coc-html, coc-css, coc-clangd (c/cpp), coc-emmet, coc-prettier, coc-tsserver, coc-pyright, coc-eslint
-" Make sure to run sudo apt install python-is-python3 when installing pyright,
-" so that formatting actually works.
 " Check coc-settings.json
 
 " Git Integration
@@ -58,14 +55,12 @@ vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 nnoremap <C-f> :Prettier<CR>
 
-" Remaps for File Tree
 " -- NERDTree Remaps --
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <Space>f :NERDTreeFind<CR>
 
-" Other Configs for NERDTree's behaviour.
 " Start NERDTree and put the cursor back in the other window.
 autocmd VimEnter * NERDTree | wincmd p
 
@@ -76,7 +71,6 @@ autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTa
 autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
 		\ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 
-" Configs for vim-airline, if you choose to use it
 let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
 " let g:airline_powerline_fonts = 1  " enable powerline fonts
 
