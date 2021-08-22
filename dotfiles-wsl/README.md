@@ -1,5 +1,5 @@
-**In [dotfiles-wsl](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-i-c/tree/master/dotfiles-wsl):**
-
+# g-e-o-m-e-t-r-i-c-/dotfiles-wsl
+A place for me to dump my dotfiles for easier access.
 -   My `init.vim` (Neovim) and `.vimrc` (Vim).
 -	**Plugins**
 	- [coc.nvim](https://github.com/neoclide/coc.nvim), an extension marketplace that deals with advanced features such as autocomplete and auto-formatting.
