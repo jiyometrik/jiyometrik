@@ -3,6 +3,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }  " autocomplete and all that fun stuff
 Plug 'tpope/vim-fugitive'  " git from vim
 Plug 'airblade/vim-gitgutter'  " git status while editing
+" Plug 'mhinz/vim-signify'  " git diffs
 Plug 'preservim/nerdtree'  " file tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " git status for file tree
 Plug 'vim-airline/vim-airline'  " status bar
@@ -13,7 +14,7 @@ call plug#end()
 
 set number  " line numbers for my sanity
 set relativenumber  " helps with navigating with j/k
-syntax enable  " enable syntax highlighting
+syntax on  " enable syntax highlighting
 
 set tabstop=4  " use tabs, not spaces
 set shiftwidth=4  " we're not savages, use the same spacing
@@ -21,7 +22,7 @@ set autoindent  " saves time
 set smartindent
 set showmatch  " show matching brackets
 
-set nocompatible
+set updatetime=100  " fast updates for stuff like gitgutter
 
 set path+=**
 set wildmenu  " builtin file finder
@@ -56,6 +57,7 @@ autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTa
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
+let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
 
 " Fast Escape for vim-airline
