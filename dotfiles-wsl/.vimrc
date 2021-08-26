@@ -5,7 +5,7 @@ set nocompatible
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language servers and all that fun stuff
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
-Plug 'airblade/vim-gitgutter' " Git Integration for Diffs
+Plug 'mhinz/vim-signify'  " faster version
 Plug 'preservim/nerdtree'  " File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 Plug 'vim-airline/vim-airline'  " Status Bar
@@ -24,8 +24,6 @@ set shiftwidth=4
 set autoindent
 set smartindent
 set showmatch  " show matching brackets
-
-set updatetime=100  " fast updates for stuff like gitgutter
 
 set path+=**
 set wildmenu  " file finder

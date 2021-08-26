@@ -2,8 +2,7 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }  " autocomplete and all that fun stuff
 Plug 'tpope/vim-fugitive'  " git from vim
-Plug 'airblade/vim-gitgutter'  " git status while editing
-" Plug 'mhinz/vim-signify'  " git diffs
+Plug 'mhinz/vim-signify'  " faster version?
 Plug 'preservim/nerdtree'  " file tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " git status for file tree
 Plug 'vim-airline/vim-airline'  " status bar
@@ -21,8 +20,6 @@ set shiftwidth=4  " we're not savages, use the same spacing
 set autoindent  " saves time
 set smartindent
 set showmatch  " show matching brackets
-
-set updatetime=100  " fast updates for stuff like gitgutter
 
 set path+=**
 set wildmenu  " builtin file finder
