@@ -4,19 +4,21 @@ set nocompatible
 " PLUGINS - VimPlug
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language servers and all that fun stuff
+Plug 'sheerun/vim-polyglot'  " syntax highlighting
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'mhinz/vim-signify'  " faster version
 Plug 'preservim/nerdtree'  " File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
-Plug 'morhetz/gruvbox'  " gruvbox
+Plug 'sainnhe/gruvbox-material'  " new favourite theme <3
 Plug 'ryanoasis/vim-devicons'  " Icons!
 call plug#end()
 
+set bg=dark
+
 set number  " line numbers for my sanity
 set relativenumber
-set bg=dark
 syntax on  " enable syntax highlighting
 
 set tabstop=4  " use tabs, not spaces
@@ -26,7 +28,7 @@ set smartindent
 set showmatch  " show matching brackets
 
 set path+=**
-set wildmenu  " file finder
+set wildmenu  " builtin file finder
 
 " set leader key to be more accessible
 let mapleader = ","
@@ -40,10 +42,10 @@ vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 nnoremap <C-f> :Prettier<CR>
 
-" Remaps for File Tree
+" NERDTree Remaps
+nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <Space>f :NERDTreeFind<CR>
 
 " Start NERDTree and put the cursor back in the other window.
@@ -51,18 +53,18 @@ autocmd VimEnter * NERDTree | wincmd p
 
 " If another buffer tries to replace NERDTree, put it in the other window, and bring back NERDTree.
 autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
-	\ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
+		\ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 
 " Close the tab if NERDTree is the only window remaining in it.
 autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 " Exit Vim if NERDTree is the only window remaining in the only tab.
-autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+" autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
 
-" Fast Escape for Status Bar
+" Fast Escape for vim-airline
 if ! has('gui_running')
 	set ttimeoutlen=10
 	augroup FastEscape
@@ -78,5 +80,5 @@ endif
 if (has("termguicolors"))
 	set termguicolors
 endif
-let g:gruvbox_italic = 1
-colorscheme gruvbox
+let g:gruvbox_material_enable_italic = 1
+colorscheme gruvbox-material
