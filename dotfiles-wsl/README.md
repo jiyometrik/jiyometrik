@@ -16,3 +16,4 @@ A place for me to dump my WSL dotfiles for easier access.
 -   My `starship.toml`: Config file for my [Starship Prompt](https://starship.rs/).
 -   My `~/.prettierrc`: Config file for Vim's Prettier formatter.
 -   My `coc-settings.json`: Config file for [`coc.nvim`](https://github.com/neoclide/coc.nvim/).
+-	My `config.fish`: Config file for my Fish Shell
