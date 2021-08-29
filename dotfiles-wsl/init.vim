@@ -7,7 +7,7 @@ Plug 'mhinz/vim-signify'  " faster version?
 Plug 'preservim/nerdtree'  " file tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " git status for file tree
 Plug 'vim-airline/vim-airline'  " status bar
-Plug 'vim-airline/vim-airline-themes'
+Plug 'edkolev/tmuxline.vim'
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
 Plug 'sainnhe/gruvbox-material'
 Plug 'ryanoasis/vim-devicons'  " Icons for Everything
