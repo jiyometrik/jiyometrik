@@ -1,8 +1,6 @@
 # Config files for starship prompt
 # Directory: ~/.config/
 
-add_newline = false
-
 [line_break]
 	disabled = true
 

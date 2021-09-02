@@ -1,3 +1,6 @@
+" Config file for Neovim.
+" Directory: ~/.config/nvim
+
 " PLUGINS - VimPlug
 call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }  " autocomplete and all that fun stuff
