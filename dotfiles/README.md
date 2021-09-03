@@ -1,4 +1,4 @@
-# g-e-o-m-e-t-r-i-c-/dotfiles
+# g-e-o-m-e-t-r-i-c/dotfiles
 
 A place for me to dump my dotfiles (for WSL and my VM) for easier access.
 
