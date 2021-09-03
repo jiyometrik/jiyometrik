@@ -1,6 +1,6 @@
-# g-e-o-m-e-t-r-i-c-/dotfiles-wsl
+# g-e-o-m-e-t-r-i-c-/dotfiles
 
-A place for me to dump my WSL dotfiles for easier access.
+A place for me to dump my dotfiles (for WSL and my VM) for easier access.
 
 -   My `init.vim` (Neovim) and `.vimrc` (Vim).
 -   **Plugins**
@@ -12,8 +12,8 @@ A place for me to dump my WSL dotfiles for easier access.
     -   [vim-airline](https://github.com/vim-airline/vim-airline), a status bar which displays useful information about the current vim mode, git status, `coc` information, and more.
     -   [auto-pairs](https://github.com/jiangmiao/auto-pairs), a plugin that autocompletes brackets.
     -   [gruvbox-material](https://github.com/sainnhe/gruvbox-material), a comfortable colorscheme for Vim/Neovim, modified from the original [gruvbox](https://github.com/morhetz/gruvbox).
+    -   [vim-polyglot](https://github.com/sheerun/vim-polyglot), for better syntax highlighting.
     -   [vim-devicons](https://github.com/ryanoasis/vim-devicons/), icons for vim-airline and nerdtree, among others.
 -   My `starship.toml`: Config file for my [Starship Prompt](https://starship.rs/).
 -   My `~/.prettierrc`: Config file for Vim's Prettier formatter.
 -   My `coc-settings.json`: Config file for [`coc.nvim`](https://github.com/neoclide/coc.nvim/).
--	My `config.fish`: Config file for my Fish Shell
