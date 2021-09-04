@@ -22,4 +22,4 @@ A place for me to dump my dotfiles (for WSL and my VM) for easier access.
 
 5. i3-wm
 
-   - `config`: Config file for the i3 [Window Manager](https://i3wm.org/).
+   - `config`: Config file for the [i3 Window Manager](https://i3wm.org/).
