@@ -1,6 +1,8 @@
 # Config files for starship prompt
 # Directory: ~/.config/
-# CAUTION: Fonts without proper icon support might fail to work. Please use a Nerd Font or a patched font of your own.
+# CAUTION: Fonts without proper icon support might fail to work.
+# Please use a Nerd Font or a patched font of your own.
+
 [line_break]
 	disabled = true
 
