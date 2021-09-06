@@ -2,17 +2,22 @@
 # Directory: ~/.config/
 # CAUTION: Fonts without proper icon support might fail to work. Please use a Nerd Font or a patched font of your own.
 
+# Don't print a newline before the prompt.
 add_newline = false
 
+# Don't print a newline before the prompt symbol
 [line_break]
 	disabled = true
 
+# Git Configurations
 [git_commit]
 	commit_hash_length = 5
 
+# Shows the number of lines added, changed, or deleted.
 [git_metrics]
 	disabled = false
 
+# Shows the number of files changed, number of files deleted etc.
 [git_status]
 	conflicted = "=${count}"
 	ahead = "⇡${count}"
@@ -26,6 +31,7 @@ add_newline = false
 	deleted = "✘${count}"
 	style = "bold blue"
 
+# Nerd Font Icons: Only enable if you have a Nerd Font or your own patched font.
 [aws]
 	symbol = "  "
 
