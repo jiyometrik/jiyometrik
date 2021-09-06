@@ -3,16 +3,29 @@
 
 " PLUGINS - VimPlug
 call plug#begin('~/.config/nvim/plugged')
-Plug 'neoclide/coc.nvim', { 'branch': 'release' }  " autocomplete and all that fun stuff
-Plug 'sheerun/vim-polyglot'  " syntax highlighting
-Plug 'tpope/vim-fugitive'  " git from vim
-Plug 'mhinz/vim-signify'  " faster version?
-Plug 'preservim/nerdtree'  " file tree
-Plug 'Xuyuanp/nerdtree-git-plugin'  " git status for file tree
+
+" Language Servers and Autocomplete
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+
+" Plug 'sheerun/vim-polyglot'  " Better Syntax Highlighting
+
+" Git Integration
+Plug 'tpope/vim-fugitive'
+Plug 'mhinz/vim-signify'  " Git Diffs in the gutter
+
+" Productivity
+Plug 'preservim/nerdtree'  " Visual File Tree
+Plug 'Xuyuanp/nerdtree-git-plugin'  " shows Git status for file tree
+
+" Status Lines
 Plug 'vim-airline/vim-airline'  " status bar
 Plug 'edkolev/tmuxline.vim'
+
+" Misc.
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
-" Plug 'sainnhe/gruvbox-material'
+
+" Appearance
+" Plug 'sainnhe/gruvbox-material'  " Gruvbox Material Theme
 Plug 'arcticicestudio/nord-vim'
 Plug 'ryanoasis/vim-devicons'  " Icons for Everything
 call plug#end()
@@ -59,10 +72,11 @@ autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTa
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1  " Use powerline fonts.
 let g:airline#extensions#tabline#enabled = 1  " enable top bar for vim-airline
 
 " Fast Escape for vim-airline
+" This allows the status bar to respond faster whenever we change Vim modes.
 if ! has('gui_running')
 	set ttimeoutlen=10
 	augroup FastEscape
@@ -72,9 +86,10 @@ if ! has('gui_running')
 	augroup END
 endif
 
-" if (has("nvim"))
-	" let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-" endif
+" Enables TrueColors in Vim.
+if (has("nvim"))
+	let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+endif
 if (has("termguicolors"))
 	set termguicolors
 endif
