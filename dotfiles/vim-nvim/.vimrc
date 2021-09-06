@@ -5,15 +5,27 @@ set nocompatible
 call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " language servers and all that fun stuff
 Plug 'sheerun/vim-polyglot'  " syntax highlighting
+
+" Git Integration
 Plug 'tpope/vim-fugitive'  " Yet another Git Integration for Git Commands
 Plug 'mhinz/vim-signify'  " faster version
+
+" File Tree
 Plug 'preservim/nerdtree'  " File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
+
+" Status Line
 Plug 'vim-airline/vim-airline'  " Status Bar
+
+" Misc.
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
-" Plug 'sainnhe/gruvbox-material'  " new favourite theme <3
-Plug 'arcticicestudio/nord-vim'
+
+" Appearance
+" Plug 'sainnhe/gruvbox-material'
+" Plug 'arcticicestudio/nord-vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ryanoasis/vim-devicons'  " Icons!
+
 call plug#end()
 
 set bg=dark
@@ -81,13 +93,12 @@ if exists('+termguicolors')
 	set termguicolors
 endif
 
-" Gruvbox Material
-" let g:gruvbox_material_enable_italic = 1
-" colorscheme gruvbox-material
-
 " Nord
-let g:nord_bold_vertical_split_line = 1
-let g:nord_uniform_diff_background = 1
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
-colorscheme nord
+" let g:nord_bold_vertical_split_line = 1
+" let g:nord_uniform_diff_background = 1
+" let g:nord_italic = 1
+" let g:nord_italic_comments = 1
+" colorscheme nord
+
+" Dracula
+colorscheme dracula

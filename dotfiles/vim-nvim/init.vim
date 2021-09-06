@@ -7,26 +7,27 @@ call plug#begin('~/.config/nvim/plugged')
 " Language Servers and Autocomplete
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
-" Plug 'sheerun/vim-polyglot'  " Better Syntax Highlighting
+Plug 'sheerun/vim-polyglot'  " Better Syntax Highlighting
 
 " Git Integration
 Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'  " Git Diffs in the gutter
 
-" Productivity
+" File Tree
 Plug 'preservim/nerdtree'  " Visual File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " shows Git status for file tree
 
 " Status Lines
 Plug 'vim-airline/vim-airline'  " status bar
-Plug 'edkolev/tmuxline.vim'
+" Plug 'edkolev/tmuxline.vim'
 
 " Misc.
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
 
 " Appearance
-" Plug 'sainnhe/gruvbox-material'  " Gruvbox Material Theme
-Plug 'arcticicestudio/nord-vim'
+" Plug 'sainnhe/gruvbox-material'
+" Plug 'arcticicestudio/nord-vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ryanoasis/vim-devicons'  " Icons for Everything
 call plug#end()
 
@@ -37,7 +38,7 @@ syntax enable  " enable syntax highlighting
 set tabstop=4  " use tabs, not spaces
 set shiftwidth=4
 set smartindent
-set showmatch  " show matching brackets
+" set showmatch  " show matching brackets
 
 set path+=**
 set wildmenu  " builtin file finder
@@ -99,8 +100,11 @@ endif
 " colorscheme gruvbox-material
 
 " Nord
-let g:nord_bold_vertical_split_line = 1
-let g:nord_uniform_diff_background = 1
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
-colorscheme nord
+" let g:nord_bold_vertical_split_line = 1
+" let g:nord_uniform_diff_background = 1
+" let g:nord_italic = 1
+" let g:nord_italic_comments = 1
+" colorscheme nord
+
+" Dracula
+colorscheme dracula
