@@ -11,15 +11,16 @@ Plug 'preservim/nerdtree'  " File Tree
 Plug 'Xuyuanp/nerdtree-git-plugin'  " Git for File Tree
 Plug 'vim-airline/vim-airline'  " Status Bar
 Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
-Plug 'sainnhe/gruvbox-material'  " new favourite theme <3
+" Plug 'sainnhe/gruvbox-material'  " new favourite theme <3
+Plug 'arcticicestudio/nord-vim'
 Plug 'ryanoasis/vim-devicons'  " Icons!
 call plug#end()
 
 set bg=dark
+syntax on
 
 set number  " line numbers for my sanity
 set relativenumber
-syntax on  " enable syntax highlighting
 
 set tabstop=4  " use tabs, not spaces
 set shiftwidth=4
@@ -79,5 +80,14 @@ if exists('+termguicolors')
 	let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 	set termguicolors
 endif
-let g:gruvbox_material_enable_italic = 1
-colorscheme gruvbox-material
+
+" Gruvbox Material
+" let g:gruvbox_material_enable_italic = 1
+" colorscheme gruvbox-material
+
+" Nord
+let g:nord_bold_vertical_split_line = 1
+let g:nord_uniform_diff_background = 1
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+colorscheme nord
