@@ -5,13 +5,19 @@ A place for me to dump my dotfiles (for WSL) for easier access.
 1. vim-nvim
 
     - My `init.vim` (Neovim) and `.vimrc` (Vim).
-    - My `coc-settings.json`: Config file for [`coc.nvim`](https://github.com/neoclide/coc.nvim/).
+    - My `coc-settings.json`: Config file for [`coc.nvim`][1].
     - My `~/.prettierrc`: Config file for Vim's Prettier formatter.
 
-2. starship
+2. bash prompts
 
-    - My `starship.toml`: Config file for my [Starship Prompt](https://starship.rs/).
+    - My `starship.toml`: Config file for my [Starship Prompt][2].
+	- `pencil.omp.json`: My custom [Oh-My-Posh][3] theme. To use, place it in the `~/.poshthemes` directory.
 
 3. tmux
 
-    - My `.tmux.conf`: Config file for [Tmux](https://github.com/tmux/tmux).
+    - My `.tmux.conf`: Config file for [Tmux][4].
+
+[1]: https://github.com/neoclide/coc.nvim/
+[2]: https://starship.rs/
+[3]: https://ohmyposh.dev/docs/
+[4]: https://github.com/tmux/tmux

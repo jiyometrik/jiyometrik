@@ -1,0 +1,66 @@
+{
+	"$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+	"blocks": [
+		{
+			"alignment": "left",
+			"horizontal_offset": 1,
+			"vertical_offset": 1,
+			"segments": [
+				{
+					"background": "yellow",
+					"foreground": "black",
+					"powerline_symbol": "",
+					"leading_diamond": "",
+					"properties": {
+						"prefix": "  ",
+						"style": "folder"
+					},
+					"style": "diamond",
+					"type": "path"
+				},
+				{
+					"background": "green",
+					"foreground": "black",
+					"properties": {
+						"display_stash_count": true,
+						"display_status": true,
+						"display_upstream_icon": true,
+						"status_colors_enabled": true,
+						"local_changes_color": "cyan",
+						"ahead_and_behind_color": "magenta",
+						"behind_color": "cyan",
+						"ahead_color": "lightCyan",
+						"stash_count_icon": "\uF693 ",
+						"branch_icon": "\uF126 ",
+						"github_icon": ""
+					},
+					"style": "powerline",
+					"type": "git"
+				},
+				{
+					"background": "yellow",
+					"foreground": "black",
+					"powerline_symbol": "",
+					"style": "powerline",
+					"type": "root"
+				},
+				{
+					"background": "blue",
+					"foreground": "black",
+					"properties": {
+						"always_enabled": true,
+						"color_background": true,
+						"display_exit_code": false,
+						"error_color": "red",
+						"prefix": " \uF111"
+					},
+					"style": "diamond",
+					"trailing_diamond": "",
+					"type": "exit"
+				}
+			],
+			"type": "prompt"
+		}
+	],
+	"final_space": true
+}
