@@ -1,6 +1,6 @@
 # g-e-o-m-e-t-r-i-c/dotfiles
 
-A place for me to dump my dotfiles (for WSL and my VM) for easier access.
+A place for me to dump my dotfiles (for WSL) for easier access.
 
 1. vim-nvim
 
@@ -15,7 +15,3 @@ A place for me to dump my dotfiles (for WSL and my VM) for easier access.
 3. tmux
 
     - My `.tmux.conf`: Config file for [Tmux](https://github.com/tmux/tmux).
-
-4. alacritty
-
-    - My `alacritty.yml`: Config file for [alacritty](https://alacritty.org/).
