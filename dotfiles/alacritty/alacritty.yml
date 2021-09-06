@@ -15,28 +15,7 @@ font:
 
 # Colorscheme Definition
 schemes:
-  gruvbox_material_medium_dark: &gruvbox_material_medium_dark
-  primary:
-    background: '0x282828'
-    foreground: '0xd4be98'
-    normal:
-      black:   '0x3c3836'
-      red:     '0xea6962'
-      green:   '0xa9b665'
-      yellow:  '0xd8a657'
-      blue:    '0x7daea3'
-      magenta: '0xd3869b'
-      cyan:    '0x89b482'
-      white:   '0xd4be98'
-      bright:
-        black:   '0x3c3836'
-        red:     '0xea6962'
-        green:   '0xa9b665'
-        yellow:  '0xd8a657'
-        blue:    '0x7daea3'
-        magenta: '0xd3869b'
-        cyan:    '0x89b482'
-        white:   '0xd4be98'
+  # Nord Theme
   nord: &nord
     primary:
       background: '0x2e3440'
@@ -86,6 +65,29 @@ schemes:
       cyan: '0x6d96a5'
       white: '0xaeb3bb'
 
+  # Gruvbox Material
+  gruvbox_material_medium_dark: &gruvbox_material_medium_dark
+  primary:
+    background: '0x282828'
+    foreground: '0xd4be98'
+    normal:
+      black:   '0x3c3836'
+      red:     '0xea6962'
+      green:   '0xa9b665'
+      yellow:  '0xd8a657'
+      blue:    '0x7daea3'
+      magenta: '0xd3869b'
+      cyan:    '0x89b482'
+      white:   '0xd4be98'
+      bright:
+        black:   '0x3c3836'
+        red:     '0xea6962'
+        green:   '0xa9b665'
+        yellow:  '0xd8a657'
+        blue:    '0x7daea3'
+        magenta: '0xd3869b'
+        cyan:    '0x89b482'
+        white:   '0xd4be98'
+
 # Colorscheme
-# colors: *gruvbox_material_medium_dark
 colors: *nord
