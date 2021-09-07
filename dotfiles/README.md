@@ -8,7 +8,7 @@ A place for me to dump my dotfiles (for WSL) for easier access.
     - My `coc-settings.json`: Config file for [`coc.nvim`][1].
     - My `~/.prettierrc`: Config file for Vim's Prettier formatter.
 
-2. bash prompts
+2. bash-prompts
 
     - My `starship.toml`: Config file for my [Starship Prompt][2].
 	- `pencil.omp.json`: My custom [Oh-My-Posh][3] theme. To use, place it in the `~/.poshthemes` directory.
