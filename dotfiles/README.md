@@ -17,7 +17,11 @@ A place for me to dump my dotfiles (for WSL) for easier access.
 
     - My `.tmux.conf`: Config file for [Tmux][4].
 
+4. doom-emacs
+    - My [Doom Emacs][5] configuration files: `init.el`, `config.el` and `packages.el`.
+
 [1]: https://github.com/neoclide/coc.nvim/
 [2]: https://starship.rs/
 [3]: https://ohmyposh.dev/docs/
 [4]: https://github.com/tmux/tmux
+[5]: https://doomemacs.org
