@@ -1,3 +1,6 @@
+" g-e-o-m-e-t-r-i-c's ~/.vimrc - config file for Vim.
+" Directory: ~
+
 " This must be first, because it changes other options as side effect
 set nocompatible
 

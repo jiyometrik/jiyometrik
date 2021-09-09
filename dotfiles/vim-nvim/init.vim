@@ -1,4 +1,4 @@
-" Config file for Neovim.
+" g-e-o-m-e-t-r-i-c's ~/.config/nvim/init.vim - config file for Neovim.
 " Directory: ~/.config/nvim
 
 " PLUGINS - VimPlug
@@ -26,8 +26,7 @@ Plug 'jiangmiao/auto-pairs'  " autocomplete matching brackets
 
 " Appearance
 " Plug 'sainnhe/gruvbox-material'
-" Plug 'arcticicestudio/nord-vim'
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'arcticicestudio/nord-vim'
 Plug 'ryanoasis/vim-devicons'  " Icons for Everything
 call plug#end()
 
@@ -100,11 +99,8 @@ endif
 " colorscheme gruvbox-material
 
 " Nord
-" let g:nord_bold_vertical_split_line = 1
-" let g:nord_uniform_diff_background = 1
-" let g:nord_italic = 1
-" let g:nord_italic_comments = 1
-" colorscheme nord
-
-" Dracula
-colorscheme dracula
+let g:nord_bold_vertical_split_line = 1
+let g:nord_uniform_diff_background = 1
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+colorscheme nord
