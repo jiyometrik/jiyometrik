@@ -1,3 +1,6 @@
+;; g-e-o-m-e-t-r-i-c's Config File (config.el) for Doom Emacs.
+;; Directory: ~/.doom.d/
+
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
 ;; Place your private configuration here! Remember, you do not need to run 'doom

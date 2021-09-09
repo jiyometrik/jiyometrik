@@ -1,3 +1,6 @@
+;; g-e-o-m-e-t-r-i-c's Init File (init.el) for Doom Emacs.
+;; Directory: ~/.doom.d/
+
 ;;; init.el -*- lexical-binding: t; -*-
 
 ;; This file controls what Doom modules are enabled and what order they load

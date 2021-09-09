@@ -1,3 +1,6 @@
+;; g-e-o-m-e-t-r-i-c's Packages File (packages.el) for Doom Emacs.
+;; Directory: ~/.doom.d/
+
 ;; -*- no-byte-compile: t; -*-
 ;;; $DOOMDIR/packages.el
 
