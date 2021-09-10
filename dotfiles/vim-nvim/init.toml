@@ -10,13 +10,14 @@
 # Directory: ~/.SpaceVim.d
 
 [options]
+
 # Indentation options: use 4 spaces and tabs
 default_indent = 4
 expand_tab = false
 
 # set spacevim theme. by default colorscheme layer is not loaded,
 # if you want to use more colorscheme, please load the colorscheme layer
-colorscheme = "nord"
+colorscheme = "one"
 colorscheme_bg = "dark"
 
 # Disable guicolors in basic mode, many terminal do not support 24bit true colors
@@ -46,11 +47,15 @@ default_position = 'top'
 default_height = 30
 
 [[layers]]
-name = 'colorscheme'
+name = 'colorscheme'  # gives me access to other colorschemes, apart from gruvbox
 
 # git
 [[layers]]
 name = 'git'
+
+# allows me to view diffs in the statusline, among other things
+[[layers]]
+name = 'VersionControl'
 
 [[layers]]
 name = 'incsearch'
@@ -60,8 +65,8 @@ name = 'incsearch'
 repo = "sainnhe/gruvbox-material"
 
 # some git integration plugins
-[[custom_plugins]]
-repo = "tpope/vim-fugitive"
+# [[custom_plugins]]
+# repo = "tpope/vim-fugitive"  # causes problems with dein, so use at your own risk!
 
 [[custom_plugins]]
 repo = "Xuyuanp/nerdtree-git-plugin"
@@ -73,4 +78,3 @@ repo = "sheerun/vim-polyglot"
 # LaTeX
 [[custom_plugins]]
 repo = "vim-latex/vim-latex"
-
