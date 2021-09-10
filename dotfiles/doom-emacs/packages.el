@@ -1,6 +1,3 @@
-;; g-e-o-m-e-t-r-i-c's Packages File (packages.el) for Doom Emacs.
-;; Directory: ~/.doom.d/
-
 ;; -*- no-byte-compile: t; -*-
 ;;; $DOOMDIR/packages.el
 
@@ -51,9 +48,3 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
-
-;; nord theme
-(package! nord-theme)
-
-;; better org mode bullets
-(package! org-bullets)
