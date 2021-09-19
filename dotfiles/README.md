@@ -20,6 +20,9 @@ A place for me to dump my dotfiles (for WSL) for easier access.
 4. doom-emacs
     - My [Doom Emacs][6] configuration files: `~/.doom.d/init.el`, `~/.doom.d/config.el` and `~/.doom.d/packages.el`.
 
+5. ricing
+- The folder where I keep all my files used for ricing my desktop.
+
 [1]: https://spacevim.org/documentation/
 [2]: https://github.com/neoclide/coc.nvim/
 [3]: https://starship.rs/

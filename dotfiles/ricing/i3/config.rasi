@@ -1,0 +1,5 @@
+configuration {
+	font: "Fira Code Nerd Font Mono 12";
+
+}
+@import "~/.cache/wal/colors-rofi-dark"
