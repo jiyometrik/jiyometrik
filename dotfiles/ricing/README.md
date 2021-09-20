@@ -9,8 +9,6 @@ You'll find:
 - My [`kitty`](https://sw.kovidgoyal.net/kitty/) configuration, as well as my [Starship Prompt](https://starship.rs/) configuration.
 - My [`neofetch`](https://github.com/dylanaraps/neofetch) configuration
 - My [`i3`](https://i3wm.org/) configuration, along with my [`rofi`](https://github.com/davatorium/rofi) configuration.
-- My wallpapers
-
 
 ## Notes
 

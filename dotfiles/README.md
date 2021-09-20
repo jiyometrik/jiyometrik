@@ -1,6 +1,6 @@
 # g-e-o-m-e-t-r-i-c/dotfiles
 
-A place for me to dump my dotfiles (for WSL) for easier access.
+A place for me to dump my dotfiles for easier access.
 
 1. vim-nvim
 
@@ -17,15 +17,11 @@ A place for me to dump my dotfiles (for WSL) for easier access.
 
     - My `~/.tmux.conf`: Config file for [Tmux][5].
 
-4. doom-emacs
-    - My [Doom Emacs][6] configuration files: `~/.doom.d/init.el`, `~/.doom.d/config.el` and `~/.doom.d/packages.el`.
-
-5. ricing
-- The folder where I keep all my files used for ricing my desktop.
+4. ricing
+	- The folder where I keep all my files used for ricing my desktop.
 
 [1]: https://spacevim.org/documentation/
 [2]: https://github.com/neoclide/coc.nvim/
 [3]: https://starship.rs/
 [4]: https://ohmyposh.dev/docs/
 [5]: https://github.com/tmux/tmux
-[6]: https://doomemacs.org
