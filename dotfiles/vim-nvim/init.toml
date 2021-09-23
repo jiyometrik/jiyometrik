@@ -17,7 +17,7 @@ expand_tab = false
 
 # set spacevim theme. by default colorscheme layer is not loaded,
 # if you want to use more colorscheme, please load the colorscheme layer
-colorscheme = "one"
+colorscheme = "gruvbox"
 colorscheme_bg = "dark"
 
 # Disable guicolors in basic mode, many terminal do not support 24bit true colors
@@ -28,7 +28,7 @@ statusline_separator = "slant"
 statusline_iseparator = "slant"
 buffer_index_type = 4
 enable_tabline_filetype_icon = true
-enable_statusline_mode = true
+# enable_statusline_mode = true
 
 updatetime = 500
 
@@ -61,12 +61,7 @@ name = 'VersionControl'
 name = 'incsearch'
 
 [[custom_plugins]]
-# custom theme
 repo = "sainnhe/gruvbox-material"
-
-# some git integration plugins
-# [[custom_plugins]]
-# repo = "tpope/vim-fugitive"  # causes problems with dein, so use at your own risk!
 
 [[custom_plugins]]
 repo = "Xuyuanp/nerdtree-git-plugin"
