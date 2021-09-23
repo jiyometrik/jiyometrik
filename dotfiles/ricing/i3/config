@@ -221,4 +221,5 @@ gaps inner 20
 # gaps top 5
 
 # set background image
-exec feh --no-fehbg --bg-fill '/home/geometric/Pictures/pywal/peak.jpeg'
+# exec feh --bg-fill  -F '/home/geometric/Pictures/ricing/wind.png'
+exec /home/geometric/.fehbg &
