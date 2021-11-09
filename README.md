@@ -5,13 +5,13 @@ I'm a member of my school's Infocomm Club.
 
 **Things I'm currently learning:**
 
-- Git Operations
-- How to Go The FOSS Way
+- 🌲 Git Operations
+- 🐧 How to Go The FOSS Way
 
 **Also interested in:**
 
-- Mathematics (I especially like Algebra)
-- Piano
+- ➕ Mathematics (I especially like Algebra)
+- 🎹 Piano
 
 **Stuff I did:**
 
