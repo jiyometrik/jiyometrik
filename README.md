@@ -19,7 +19,7 @@ i'm a member of my school's infocomm club (lmao).
 
 - [random website](https://github.com/g-e-o-m-e-t-r-i-c/final-web-project)
   for school
-- python `arcade` [Shooter Game](https://github.com/g-e-o-m-e-t-r-i-c/shooter-game)
+- python `arcade` [shooter game](https://github.com/g-e-o-m-e-t-r-i-c/shooter-game)
   (unmaintained)
 - a collection of [ciphers](https://github.com/g-e-o-m-e-t-r-i-c/ciphers),
   with some friends
