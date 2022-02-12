@@ -11,7 +11,7 @@ I'm a member of my school's Infocomm Club.
 **Also interested in:**
 
 - :heavy_plus_sign: Mathematics (I especially like Algebra)
-- :piano: Piano
+- :keyboard: Piano
 
 **Stuff I did:**
 
