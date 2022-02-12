@@ -10,8 +10,8 @@ I'm a member of my school's Infocomm Club.
 
 **Also interested in:**
 
-- ➕ Mathematics (I especially like Algebra)
-- 🎹 Piano
+- :heavy_plus_sign: Mathematics (I especially like Algebra)
+- :piano: Piano
 
 **Stuff I did:**
 
