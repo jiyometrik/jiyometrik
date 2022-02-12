@@ -1,23 +1,25 @@
 # g-e-o-m-e-t-r-i-c
 
-Hi, I'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-i-c)!
-I'm a member of my school's Infocomm Club.
+hi, i'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-i-c)!
+i'm a member of my school's infocomm club (lmao).
 
-**Things I'm currently learning:**
+**things i'm currently learning:**
 
-- :crab: Rust Basics
-- :hedgehog: Go Basics
+- :crab: rust basics
+- :hedgehog: go basics
 
-**Also interested in:**
+**also interested in:**
 
-- :heavy_plus_sign: Mathematics (I especially like Algebra)
-- :musical_keyboard: Piano
+- :heavy_plus_sign: math
+- :test_tube: chemistry
+- :musical_keyboard: classical music
+- :rice: [ricing](https://excaliburzero.gitbooks.io/an-introduction-to-linux-ricing/content/ricing.html)
 
-**Stuff I did:**
+**stuff i did:**
 
-- A [random website](https://github.com/g-e-o-m-e-t-r-i-c/final-web-project)
+- [random website](https://github.com/g-e-o-m-e-t-r-i-c/final-web-project)
   for school
-- A Python `arcade` [Shooter Game](https://github.com/g-e-o-m-e-t-r-i-c/shooter-game)
-  (no longer maintained)
-- A collection of [ciphers](https://github.com/g-e-o-m-e-t-r-i-c/ciphers),
+- python `arcade` [Shooter Game](https://github.com/g-e-o-m-e-t-r-i-c/shooter-game)
+  (unmaintained)
+- a collection of [ciphers](https://github.com/g-e-o-m-e-t-r-i-c/ciphers),
   with some friends
