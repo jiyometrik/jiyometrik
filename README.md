@@ -5,8 +5,8 @@ I'm a member of my school's Infocomm Club.
 
 **Things I'm currently learning:**
 
-- 🌲 Git Operations
-- 🐧 How to Go The FOSS Way
+- :crab: Rust Basics
+- :hedgehog: Go Basics
 
 **Also interested in:**
 
