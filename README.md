@@ -3,9 +3,11 @@
 hi, i'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-i-c)!
 i'm a member of my school's infocomm club (lmao).
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=g-e-o-m-e-t-r-i-c&theme=nord_dark)
-![](https://github-readme-stats.vercel.app/api?username=g-e-o-m-e-t-r-i-c&theme=nord)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=g-e-o-m-e-t-r-i-c&theme=nord_dark&utcOffset=8)
+<div align="center" id="stat">
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=g-e-o-m-e-t-r-i-c&theme=nord_dark" />
+<img src="https://github-readme-stats.vercel.app/api?username=g-e-o-m-e-t-r-i-c&theme=nord" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=g-e-o-m-e-t-r-i-c&theme=nord_dark&utcOffset=8" />
+</div>
 
 <p align="center" id="lang">
   <a href="#"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" /></a>
