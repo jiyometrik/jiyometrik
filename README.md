@@ -10,7 +10,7 @@ i'm a member of my school's infocomm club (lmao).
 **things i'm currently learning:**
 
 - :crab: rust <a href="#"><img align="right" src="https://img.shields.io/badge/Rust-black?style=for-the-badge&logo=rust&logoColor=#E57324" /></a>
-- :paper: latex <a href="#"><img align="right" src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white" /></a>
+- :page_facing_up: latex <a href="#"><img align="right" src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white" /></a>
 
 **also interested in:**
 
@@ -23,6 +23,5 @@ i'm a member of my school's infocomm club (lmao).
 
 - [random website](https://github.com/g-e-o-m-e-t-r-i-c/final-web-project)
   for school
-
 - [science discord bot](https://github.com/HCI-Science-Project/Discord-Bot) for
   school
