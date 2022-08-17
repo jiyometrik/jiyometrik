@@ -27,14 +27,13 @@ i'm a member of my school's infocomm club (lmao).
 
 - :crab: rust <a href="#"><img align="right" src="https://img.shields.io/badge/Rust-black?style=for-the-badge&logo=rust&logoColor=#E57324" /></a>
 
-- :page_facing_up: latex <a href="#"><img align="right" src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white" /></a>
-
 ## also interested in...
 
 - :heavy_plus_sign: math
 - :test_tube: chemistry
 - :musical_keyboard: classical music
 - :rice: [ricing](https://excaliburzero.gitbooks.io/an-introduction-to-linux-ricing/content/ricing.html)
+- :closed_book: conlanging
 
 ## i did...
 
