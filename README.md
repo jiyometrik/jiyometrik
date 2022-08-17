@@ -5,8 +5,6 @@ i'm a member of my school's infocomm club (lmao).
 
 <div align="center" id="stat">
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=g-e-o-m-e-t-r-i-c&theme=nord_dark" />
-<img src="https://github-readme-stats.vercel.app/api?username=g-e-o-m-e-t-r-i-c&theme=nord" />
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=g-e-o-m-e-t-r-i-c&theme=nord_dark&utcOffset=8" />
 </div>
 
 <p align="center" id="lang">
