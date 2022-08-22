@@ -54,9 +54,23 @@ i'm a member of my school's infocomm club.
   for school
 - [science discord bot](https://github.com/HCI-Science-Project/Discord-Bot) for
   school
-
-## socials
-
-<div id="socials" align="center">
-  <a href="#"><img src="https://dcbadge.vercel.app/api/shield/739059744970637316" /></a>
-</div>
+  
+## my coding journey!
+- **2017**: started learning basic web (html, css, javascript)
+- **2018**: started learning basic python
+- **2019**: picked up oop (object-oriented programming), turtle and tkinter
+- **2021**: joined ec3!
+  - c++ and competitive programming
+  - basic web development
+  - basic cybersec ([picoctf](https://play.picoctf.org/practice))
+- **2021**: picked up the following (sdl):
+  - latex
+  - shell scripting
+- **2022*: year 2, ec3
+  - intermediate web development (vue.js)
+  - intermediate competitive programming
+  - more cybersec!
+  - basic machine learning in python
+- *2022*: picked up the following (sdl):
+  - rust
+  - go
