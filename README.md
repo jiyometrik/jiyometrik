@@ -42,7 +42,7 @@ i'm a member of my school's infocomm club.
 - :test_tube: chemistry
 - :musical_keyboard: classical music
 - :rice: [ricing](https://excaliburzero.gitbooks.io/an-introduction-to-linux-ricing/content/ricing.html)
-- :closed_book: conlanging
+- :closed_book: [conlanging](https://kikiness.notion.site/the-akata-language-family-a60a79e803d241609e1118ff24f5549a)
 
 ## can do...
 - competitive programming
