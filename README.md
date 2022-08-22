@@ -35,6 +35,10 @@ i'm a member of my school's infocomm club (lmao).
 - :rice: [ricing](https://excaliburzero.gitbooks.io/an-introduction-to-linux-ricing/content/ricing.html)
 - :closed_book: conlanging
 
+## can do...
+- competitive programming
+- cybersec ctfs (capture-the-flag)
+
 ## i did...
 
 - [random website](https://github.com/g-e-o-m-e-t-r-i-c/final-web-project)
