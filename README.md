@@ -3,10 +3,13 @@
 hi, i'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-i-c)!
 i'm a member of my school's infocomm club.
 
+## stats
+
 <div align="center" id="stat">
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=g-e-o-m-e-t-r-i-c&theme=nord_dark" />
 </div>
 
+## languages
 <p align="center" id="lang">
   <a href="#"><img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=GNU%20Bash&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" /></a>
@@ -18,6 +21,7 @@ i'm a member of my school's infocomm club.
   <a href="#"><img src="https://img.shields.io/badge/Rust-black?style=for-the-badge&logo=rust&logoColor=#E57324" /></a>
 </p>
 
+## tools i use
 <p id="tools" align="center">
   <a href="#"><img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" /></a>
