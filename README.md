@@ -71,6 +71,6 @@ i'm a member of my school's infocomm club.
   - intermediate competitive programming
   - more cybersec!
   - basic machine learning in python
-- *2022*: picked up the following (sdl):
+- **2022**: picked up the following (sdl):
   - rust
   - go
