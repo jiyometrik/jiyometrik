@@ -66,7 +66,7 @@ i'm a member of my school's infocomm club.
 - **2021**: picked up the following (sdl):
   - latex
   - shell scripting
-- **2022*: year 2, ec3
+- **2022**: year 2, ec3
   - intermediate web development (vue.js)
   - intermediate competitive programming
   - more cybersec!
