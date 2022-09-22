@@ -6,7 +6,7 @@ i'm a member of my school's infocomm club.
 ## stats
 
 <div align="center" id="stat">
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=g-e-o-m-e-t-r-i-c&theme=nord_dark" />
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vn7n24fzkq&theme=tokyonight" />
 </div>
 
 ## languages
