@@ -35,6 +35,7 @@ i'm a member of my school's infocomm club.
 ## currently learning...
 
 - intermediate competitive programming
+- basic data science
 
 ## also interested in...
 
