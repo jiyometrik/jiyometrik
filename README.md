@@ -1,7 +1,7 @@
 # g-e-o-m-e-t-r-i-c
 
 hi, i'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-i-c)!
-i'm a member of my school's infocomm club.
+i'm a member of my school's infocomm club, ec³.
 
 ## stats
 
@@ -29,8 +29,8 @@ i'm a member of my school's infocomm club.
 - :heavy_plus_sign: math
 - :test_tube: chemistry
 - :musical_keyboard: classical music
-- :rice: [ricing](https://excaliburzero.gitbooks.io/an-introduction-to-linux-ricing/content/ricing.html)
-- :closed_book: [conlanging](https://kikiness.notion.site/geo-s-musings-95c15077f9e44090be3d00511bb3934a)
+- :rice: \*nix ricing
+- :closed_book: conlanging — making constructed languages
 
 ## can do...
 - competitive programming
@@ -47,14 +47,14 @@ i'm a member of my school's infocomm club.
 - **2017**: started learning basic web (html, css, javascript)
 - **2018**: started learning basic python
 - **2019**: picked up oop (object-oriented programming), turtle and tkinter
-- **2021**: joined ec3!
+- **2021**: joined ec³!
   - c++ and competitive programming
   - basic web development
   - basic cybersec ([picoctf](https://play.picoctf.org/practice))
 - **2021**: picked up the following (sdl):
   - latex
   - shell scripting
-- **2022**: year 2, ec3
+- **2022**: year 2, ec³
   - intermediate web development (vue.js)
   - intermediate competitive programming
   - more cybersec!
