@@ -3,21 +3,18 @@
 hi, i'm [@g-e-o-m-e-t-r-i-c](https://github.com/g-e-o-m-e-t-r-i-c/g-e-o-m-e-t-r-i-c)!
 i'm a member of my school's infocomm club, ec³.
 
-## stats
-
-<div align="center" id="stat">
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=g-e-o-m-e-t-r-i-c&theme=tokyonight" />
-</div>
-
-## languages
-<p align="center" id="lang">
-  <a href="#"><img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat-square&logo=GNU%20Bash&logoColor=white" /></a>
+<div style="display: flex">
+  <div style="flex: 1; margin-right: 20px">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=g-e-o-m-e-t-r-i-c&theme=tokyonight" />
+  </div>
+  <div style="flex: 1;">
+    <a href="#"><img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat-square&logo=GNU%20Bash&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white" /></a>
   <a href="#"><img src="	https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust&logoColor=#E57324" /></a>
-</p>
-
+  </div>
+</div>
 
 ## currently learning...
 
