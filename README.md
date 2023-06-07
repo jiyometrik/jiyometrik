@@ -9,10 +9,10 @@ i'm a member of my school's infocomm club, ec³.
   </div>
   <div>
     <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat-square&logo=GNU%20Bash&logoColor=white" />
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue" />
-  <img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust&logoColor=#E57324" />
+    <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white" />
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+    <img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue" />
+    <img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust&logoColor=#E57324" />
   </div>
 </div>
 
@@ -43,19 +43,19 @@ i'm a member of my school's infocomm club, ec³.
 ## my coding journey!
 - **2017**: started learning basic web (html, css, javascript)
 - **2018**: started learning basic python
-- **2019**: picked up oop (object-oriented programming), turtle and tkinter
-- **2021**: joined ec³!
-  - c++ and competitive programming
+- **2019**: picked up object-oriented programming, turtle and tkinter
+- **2021**: year 1 @ ec³
+  - c++ and competitive programming ([codebreaker](https://codebreaker.xyz/))
   - basic web development
   - basic cybersec ([picoctf](https://play.picoctf.org/practice))
-- **2021**: picked up the following (sdl):
+- **2021**: self-directed learning
   - latex
   - shell scripting
-- **2022**: year 2, ec³
+- **2022**: year 2 @ ec³
   - intermediate web development (vue.js)
   - intermediate competitive programming
   - more cybersec!
   - basic machine learning in python
-- **2022**: picked up the following (sdl):
+- **2022**: self-directed learning
   - rust
   - go
