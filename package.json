@@ -1,0 +1,20 @@
+{
+  "name": "vuejs-with-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "publish": "npm run build && rm -rf docs; cp -r dist docs && sed -i -e 's/src=\\//src=/g' docs/index.html ; sed -i -e 's/href=\\//href=/g' docs/index.html"
+  },
+  "dependencies": {
+    "@catppuccin/palette": "^0.1.8",
+    "@ibm/plex": "^6.3.0",
+    "inter-ui": "^3.19.3",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "vite": "^3.0.1"
+  }
+}
