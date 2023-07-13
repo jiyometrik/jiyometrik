@@ -9,69 +9,82 @@
 
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--ctp-latte-base);
-  --color-background-soft: var(--ctp-latte-surface0);
-  --color-background-mute: var(--ctp-latte-surface1);
+	--color-background: var(--ctp-latte-base);
+	--color-background-soft: var(--ctp-latte-surface0);
+	--color-background-mute: var(--ctp-latte-surface1);
 
-  --color-border: var(--ctp-latte-overlay1);
-  --color-border-hover: var(--ctp-latte-overlay0);
+	--color-border: var(--ctp-latte-overlay1);
+	--color-border-hover: var(--ctp-latte-overlay0);
 
-  --color-heading: var(--ctp-latte-blue);
-  --color-text: var(--ctp-latte-text);
+	--color-heading: var(--ctp-latte-blue);
+	--color-text: var(--ctp-latte-text);
 	--color-accent: var(--ctp-latte-lavender);
 	--color-tool: var(--ctp-latte-sky);
 	--color-link: var(--ctp-latte-flamingo);
 	--color-hover: var(--ctp-latte-flamingo);
 	--color-code: var(--ctp-latte-subtext0);
 
-  --section-gap: 160px;
+	--section-gap: 160px;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--ctp-mocha-base);
-    --color-background-soft: var(--ctp-mocha-surface0);
-    --color-background-mute: var(--ctp-mocha-surface1);
+	:root {
+		--color-background: var(--ctp-mocha-base);
+		--color-background-soft: var(--ctp-mocha-surface0);
+		--color-background-mute: var(--ctp-mocha-surface1);
 
-    --color-border: var(--ctp-mocha-overlay1);
-    --color-border-hover: var(--ctp-mocha-overlay0);
+		--color-border: var(--ctp-mocha-overlay1);
+		--color-border-hover: var(--ctp-mocha-overlay0);
 
-    --color-heading: var(--ctp-mocha-blue);
-    --color-text: var(--ctp-mocha-text);
+		--color-heading: var(--ctp-mocha-blue);
+		--color-text: var(--ctp-mocha-text);
 		--color-accent: var(--ctp-mocha-lavender);
 		--color-tool: var(--ctp-mocha-sky);
 		--color-link: var(--ctp-mocha-pink);
 		--color-hover: var(--ctp-mocha-flamingo);
 		--color-code: var(--ctp-mocha-subtext0);
-		
+
 		--section-gap: 160px;
-  }
+	}
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  position: relative;
-  font-weight: normal;
+	box-sizing: border-box;
+	margin: 0;
+	position: relative;
+	font-weight: normal;
 }
 
 body {
-  min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition: color 0.5s, background-color 0.5s;
-  line-height: 1.6;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-	
+	min-height: 100vh;
+	color: var(--color-text);
+	background: var(--color-background);
+	transition:
+		color 0.5s,
+		background-color 0.5s;
+	line-height: 1.6;
+	font-family:
+		Inter,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		"Fira Sans",
+		"Droid Sans",
+		"Helvetica Neue",
+		sans-serif;
+	font-size: 15px;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
 	code {
 		color: var(--color-code);
-		font-family: 'IBM Plex Mono', monospace;
+		font-family: "IBM Plex Mono", monospace;
 	}
 }

@@ -1,7 +1,7 @@
 export default [
-  {
-    rules: {
-      semi: "error",
-    },
-  },
-];
+	{
+		rules: {
+			semi: "error"
+		}
+	}
+]

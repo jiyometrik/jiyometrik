@@ -1,11 +1,11 @@
 @import "./base.css";
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
 
-  font-weight: normal;
+	font-weight: normal;
 }
 
 h1 {
@@ -13,8 +13,8 @@ h1 {
 }
 
 .acc {
-  text-decoration: none;
-  color: var(--color-accent);
+	text-decoration: none;
+	color: var(--color-accent);
 }
 
 .tool {
@@ -30,27 +30,26 @@ a {
 }
 
 @media (hover: hover) {
-  a:hover {
-    color: var(--color-hover);
-  }
+	a:hover {
+		color: var(--color-hover);
+	}
 }
 
 .tb {
 	text-align: justify;
-  text-justify: inter-word;
+	text-justify: inter-word;
 	margin-bottom: 1em;
 }
 
 @media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+	body {
+		display: flex;
+		place-items: center;
+	}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+	#app {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding: 0 2rem;
 	}
 }
-
