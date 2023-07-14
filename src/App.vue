@@ -78,7 +78,7 @@ import Tool from "./components/Tool.vue"
 				<Tool field="mando" text="mandarin chinese" /> natively. i am learning
 				<Tool field="malay" text="bahasa melayu" /> in school as an third
 				language, and am a member of the
-				<a href="https://vikoli.org">vyossa</a> community <i>(bite lera)</i>. i
+				<a href="https://vikoli.org">viȏssa</a> community <i>(bite lera)</i>. i
 				also
 				<a
 					href="https://unaspirated-h.notion.site/languages-39bcdff82dc54c8787813b1a27ce9f3d"
