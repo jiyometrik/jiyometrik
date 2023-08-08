@@ -81,7 +81,7 @@ import Tool from "./components/Tool.vue"
 				<a href="https://vikoli.org">viȏssa</a> community <i>(bite lera)</i>. i
 				also
 				<a
-					href="https://unaspirated-h.notion.site/languages-39bcdff82dc54c8787813b1a27ce9f3d"
+					href="https://geo-at-school.notion.site/constructed-languages-39bcdff82dc54c8787813b1a27ce9f3d?pvs=4"
 					>construct languages</a
 				>
 				as a pastime!
