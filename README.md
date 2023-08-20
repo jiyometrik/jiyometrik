@@ -12,28 +12,23 @@ which contains information about me!
 * `npm run dev` to compile the website for development.
 * `npm run build` to compile for production
 
-## if you're not interested in that craziness...
-
-### i'm currently learning
-
+## tldr.
+i'm currently learning...
 - intermediate competitive programming
 - basic data science
 
-### also interested in
-
+i'm also interested in...
 - :heavy_plus_sign: math
 - :test_tube: chemistry
 - :musical_keyboard: classical music
 - :rice: \*nix ricing
-- :closed_book: conlanging — making constructed languages
+- :closed_book: conlanging—making constructed languages
 
-### i can do
-
+i can do...
 - competitive programming
 - cybersec ctfs (capture-the-flag)
 
-### what i did
-
+some of my stuff are...
 - [random website](https://github.com/g-e-o-m-e-t-r-i-c/final-web-project)
   for school
 - [science discord bot](https://github.com/HCI-Science-Project/Discord-Bot) for
