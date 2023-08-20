@@ -29,8 +29,7 @@ i can do...
 - cybersec ctfs (capture-the-flag)
 
 some of my stuff are...
-- [random website](https://github.com/g-e-o-m-e-t-r-i-c/final-web-project)
-  for school
+- [machine learning models](https://github.com/jiyometrik/pw23) for sentiment analysis
 - [science discord bot](https://github.com/HCI-Science-Project/Discord-Bot) for
   school
 
