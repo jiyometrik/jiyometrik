@@ -87,6 +87,12 @@ import Tool from "./components/Tool.vue"
 				as a pastime!
 			</p>
 		</div>
+
+		<div id="vp" class="tb">
+			<p id="quote">
+				<Accent field="vp" text="li dekki lése aftå, du musti mik fu on!" />
+			</p>
+		</div>
 	</main>
 </template>
 
