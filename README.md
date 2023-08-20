@@ -7,6 +7,11 @@ in this repo you'll find some source code.
 it's a personal website: a mini-project i did in vue,
 which contains information about me!
 
+## run this to set the website up!
+* `npm install` to install all dependencies.
+* `npm run dev` to compile the website for development.
+* `npm run build` to compile for production
+
 ## if you're not interested in that craziness...
 
 ### i'm currently learning
@@ -34,20 +39,3 @@ which contains information about me!
 - [science discord bot](https://github.com/HCI-Science-Project/Discord-Bot) for
   school
 
-## run this to setup! <3
-
-```sh
-npm install
-```
-
-### compile (development)
-
-```sh
-npm run dev
-```
-
-### compile (to see the actual thing)
-
-```sh
-npm run build
-```
