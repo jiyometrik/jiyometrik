@@ -78,7 +78,7 @@ import Tool from "./components/Tool.vue"
 				<Tool field="mando" text="mandarin chinese" /> natively. i am learning
 				<Tool field="malay" text="bahasa melayu" /> in school as an third
 				language, and am a member of the
-				<a href="https://vikoli.org">viȏssa</a> community <i>(bite lera)</i>. i
+				<a href="https://vikoli.org">viôssa</a> community <i>(bite lera)</i>. i
 				also
 				<a
 					href="https://geo-at-school.notion.site/constructed-languages-39bcdff82dc54c8787813b1a27ce9f3d?pvs=4"
@@ -90,7 +90,7 @@ import Tool from "./components/Tool.vue"
 
 		<div id="vp" class="tb">
 			<p id="quote">
-				<Accent field="vp" text="li dekki lése aftå, du musti mik fu on!" />
+				<Accent field="vp" text="li lezaki afto de musti mik fu un i!" />
 			</p>
 		</div>
 	</main>
