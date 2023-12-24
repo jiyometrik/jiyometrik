@@ -4,8 +4,6 @@
 	max-width: 1280px;
 	margin: 0 auto;
 	padding: 2rem;
-
-	font-weight: 600;
 }
 
 h1 {
@@ -40,6 +38,7 @@ a {
 	text-align: justify;
 	text-justify: inter-word;
 	margin-bottom: 1em;
+	font-weight: 600;
 }
 
 @media (min-width: 1024px) {
