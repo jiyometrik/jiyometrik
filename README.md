@@ -7,27 +7,8 @@ in this repo you'll find some source code.
 it's a personal website: a mini-project i did in vue,
 which contains information about me!
 
-## run this to set the website up!
-* `npm install` to install all dependencies.
-* `npm run dev` to compile the website for development.
-* `npm run build` to compile for production
-
-## tldr.
-i'm currently learning:
-- intermediate competitive programming
-- basic data science + machine learning
-
-i'm also interested in:
-- :heavy_plus_sign: math
-- :test_tube: chemistry
-- :musical_keyboard: classical music
-- :closed_book: conlanging—making constructed languages
-
-i can do:
-- competitive programming
-- cybersec ctfs (capture-the-flag)
-
 ## my stuff!
+- [an RF-based drone classification system](https://github.com/jiyometrik/drones-sentinel) ft. SMU
 - [machine learning models](https://github.com/jiyometrik/pw23) for sentiment analysis
 - [science discord bot](https://github.com/HCI-Science-Project/Discord-Bot) for
   school
